@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# ML Artifacts
+artifacts/*.pkl
+artifacts/*.joblib
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-data/
+
+# Temporary
+temp/
+tmp/
+
+# Cache
+.cache/
+
+# Folium maps
+*.html
+
+# Redis dump
+dump.rdb
